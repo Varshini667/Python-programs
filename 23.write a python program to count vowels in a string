@@ -1,0 +1,7 @@
+s="python"
+a=s.count('a')
+e=s.count('e')
+i=s.count('i')
+o=s.count('o')
+u=s.count('u')
+print(f"the number of vowels:{a+e+i+o+u}")
