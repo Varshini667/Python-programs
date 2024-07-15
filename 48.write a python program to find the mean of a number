@@ -1,0 +1,3 @@
+import statistics
+items=[12,32,23]
+statistics.mean(items)
