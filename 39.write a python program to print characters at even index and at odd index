@@ -1,0 +1,10 @@
+s=input("enter a string")
+even_indices=[]
+odd_indices=[]
+for index, char in enumerate(s):
+        if index % 2 == 0:
+            even_indices.append(char)
+        else:
+            odd_indices.append(char)
+print("Characters at even indices:", ''.join(even_indices))
+print("Characters at odd indices:", ''.join(odd_indices))
