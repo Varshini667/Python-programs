@@ -1,0 +1,8 @@
+def is_palindrome(s):
+    return s==s[::-1]
+s=input("enter a name")
+p=is_palindrome(s)
+if p:
+    print("yes")
+else:
+    print("no")
