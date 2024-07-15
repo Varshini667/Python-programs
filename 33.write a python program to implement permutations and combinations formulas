@@ -1,0 +1,17 @@
+import math
+def permutation(n,r):
+    if n < r:
+        return 0  # permutation is not defined if n < r
+    else:
+        return math.factorial(n) // math.factorial(n - r)
+def combination(n, r):
+    if n < r:
+        return 0  # combination is not defined if n < r
+    else:
+        return math.factorial(n) // (math.factorial(r) * math.factorial(n - r))
+n = 5
+r = 3
+permutations = permutation(n, r)
+combinations = combination(n, r)
+print(f"Permutations of {n} taken {r} at a time: {permutations}")
+print(f"Combinations of {n} taken {r} at a time: {combinations}")
