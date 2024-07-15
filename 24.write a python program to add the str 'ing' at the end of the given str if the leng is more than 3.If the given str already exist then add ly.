@@ -1,0 +1,10 @@
+def add_suffix(word):
+    if len(word)>3:
+        if word.endswith('ing'):
+            return word+'ly'
+        else:
+            return word+'ing'
+    else:
+        return word
+print(add_suffix("play"))
+print(add_suffix("ring"))
