@@ -1,0 +1,7 @@
+s="python is easy"
+count=0
+for i in s:
+    if i==" ":
+        continue
+    count=count+1
+print(count)
