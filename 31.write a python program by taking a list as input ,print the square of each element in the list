@@ -1,0 +1,4 @@
+import math
+lst=[1,2,3]
+lst=[math.pow(i,2) for i in lst]
+print(lst)
