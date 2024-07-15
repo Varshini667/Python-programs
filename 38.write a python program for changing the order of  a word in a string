@@ -1,0 +1,2 @@
+string = "python is easy compared to java"
+print (string.replace("python", "java"))
