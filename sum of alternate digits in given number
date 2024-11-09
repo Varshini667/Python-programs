@@ -1,0 +1,7 @@
+n=input()
+sum=0
+for i in range(len(n)):
+    digit=int(n[i])
+    if i%2==0:
+        sum=sum+digit
+print(sum)
