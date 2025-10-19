@@ -1,7 +1,5 @@
-from collections import Counter
-s1='car'
-s2='arc'
-if(Counter(s1)==Counter(s2)):
-    print("the strings are anagram.")
-else:
-    print("the strings are not anagram.")
+def anagram(s1,s2):
+    str1=sorted(s1)
+    str2=sorted(s2)
+    return str1==str2
+print(anagram('earth','heart'))
