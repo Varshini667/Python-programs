@@ -1,6 +1,7 @@
-x=0;y=1
-print(x,y)
-for i in range(0,6):
+x=0
+y=1
+n=int(input('enter a number'))
+for i in range(0,n):
     print(x+y)
     temp=x
     x=y
